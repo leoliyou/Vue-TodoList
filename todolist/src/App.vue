@@ -42,7 +42,7 @@ export default defineComponent({
     //   ],
     // })
 
-    const state = reactive<{ todos: Todo[] }>({
+    const state = reactive<{ todos: Todo[] } >({
       todos: [],
     })
     // 界面加载完毕后过了一会再读取数据
@@ -63,7 +63,7 @@ export default defineComponent({
     // 修改todo的isCompleted属性的状态
     const updateTodo = (todo: Todo, isCompleted: boolean) => {
       todo.isCompleted = isCompleted
-                     // console.log(todo)
+                                   // console.log(todo)
     }
     // 全选或者是全不选的方法
     const checkAll = (isCompleted: boolean) => {
