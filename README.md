@@ -1,2 +1,2 @@
-# vue-todoList
-vue3 todoList example 
+# Vue-TodoList
+vue3 TodoList example 
